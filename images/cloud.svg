@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="182.324" height="65.989" viewBox="0 0 182.324 65.989">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #99ddc8;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #3f3d56;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="cloud" transform="translate(-1457.154 -218.5)">
+    <path id="Path_188" data-name="Path 188" class="cls-1" d="M906.665,217.771a38.95,38.95,0,0,1,38.9-36.914c1.184,0,2.353.062,3.51.165a51.75,51.75,0,0,1,89.457-.042c.976-.073,1.958-.123,2.953-.123a38.95,38.95,0,0,1,38.9,36.914" transform="translate(550.489 66.718)"/>
+    <path id="Path_189" data-name="Path 189" class="cls-2" d="M914.778,214.775a38.95,38.95,0,0,1,38.9-36.914c1.184,0,2.353.062,3.51.165a51.75,51.75,0,0,1,89.457-.042c.976-.073,1.958-.123,2.953-.123a38.95,38.95,0,0,1,38.9,36.914" transform="translate(550.489 66.718)"/>
+  </g>
+</svg>

@@ -1,0 +1,255 @@
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-family: 'Segoe UI', regular;
+  overflow-x: hidden;
+}
+
+h1, h2 {
+  font-family: 'Segoe Print', regular;
+  font-size: 50px;
+}
+
+p {
+  font-size: 1em;
+  text-align: center;
+}
+
+li {
+  font-size: 1em;
+  text-align: center;
+}
+
+/* Button */
+.button {
+  margin-top: 40px;
+  padding: 15px 60px;
+  border-radius: 25px;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+  background-color: white;
+}
+
+.btn:hover {
+  margin-top: 2px;
+}
+
+/*Navigation*/
+  nav {
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;
+    display: flex;
+    padding: 10px 20%;
+    justify-content: space-between;
+    height: 10vh;
+  }
+
+  .nav-links {
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+  }
+
+ li  a {
+    padding: 0px 25px;
+    text-decoration: none;
+    color: black;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: #46A140;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu div {
+    width: 30px;
+    height: 5px;
+    background-color: black;
+    margin: 5px;
+  }
+
+/* Main Section */
+.background {
+  background: url("../images/servicesDesign.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.mainImg {
+  margin: 0 20%;
+  text-align: center;
+}
+
+.services {
+  margin: 100px 0;
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  padding-top: 0;
+}
+
+.services h1 {
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.services h4 {
+  font-size: 2em;
+  width: 60%;
+  text-align: left;
+}
+
+.services h5 {
+  font-size: 1.5em;
+  width: 60%;
+  text-align: left;
+}
+
+.services p {
+  font-size: 1.2em;
+  text-align: left;
+  width: 60%;
+}
+
+hr {
+  width: 40%;
+  margin-top: 0;
+}
+
+.services ul {
+  font-size: 1.1em;
+  list-style-type: none;
+  width: 60%;
+  padding: 0;
+  text-align: center;
+}
+
+.areas {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  color: #46A140;
+  font-weight: 500;
+}
+
+/*footer*/
+footer {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  padding-top: 50px;
+}
+
+.icons a {
+  padding: 0;
+}
+
+@media screen and (max-width: 1100px) {
+nav {
+  padding: 10px 5%;
+}
+body {
+  overflow-x: hidden;
+}
+
+h1, h2 {
+  font-size: 35px;
+}
+
+.services h4, .services h5, .services p, ul {
+  width: 90%;
+}
+
+/*navigation*/
+.nav-links {
+  position: absolute;
+  right: 0px;
+  height: 92vh;
+  top: 8vh;
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  transform: translateX(100%);
+  transition: transform 0.5s ease-in;
+  background-color: white;
+  z-index: 900;
+}
+
+.menu {
+  padding-top: 20px;
+  display: block;
+  cursor: pointer;
+}
+
+.nav-active {
+  transform: translateX(0%);
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/*contact*/
+.btn {
+  width: 60%;
+  padding: 15px 0;
+}
+
+.services h4, .service h5, .services p, ul {
+  width: 90%;
+}
+
+.areas {
+  color: #46A140;
+  font-weight: 500;
+}
+
+.mainImg {
+  margin: 0 5%;
+  text-align: center;
+}
+
+}
