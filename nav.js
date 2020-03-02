@@ -13,17 +13,17 @@ function displayResult () {
   var roomsNum = document.getElementById("roomsNum").value;
   // An if/else statement that displays
   if (document.getElementById("option1").checked == true) {
-      var conditionOfRooms1 = 280;
+      var conditionOfRooms1 = 150;
       var result1 = roomsNum * conditionOfRooms1;
       document.getElementById("price").innerHTML = "$" + result1;
   }
   else if (document.getElementById("option2").checked == true) {
-      var conditionOfRooms2 = 350;
+      var conditionOfRooms2 = 200;
       var result2 = roomsNum * conditionOfRooms2;
      document.getElementById("price").innerHTML = "$" + result2;
   }
   else if (document.getElementById("option3").checked == true) {
-    var conditionOfRooms3 = 420;
+    var conditionOfRooms3 = 250;
     var result3 = roomsNum * conditionOfRooms3;
     document.getElementById("price").innerHTML = "$" + result3;
   }
