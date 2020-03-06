@@ -127,31 +127,56 @@
                   <h5>2) Select The Type of Room(s)</h5>
                   <div class="cardParent">
                 <div class="card">
-                  <label class="container"><p style="font-size: .8em;">Section of a Room</p>
-                    <input onchange="displayResult()" id="option1" type="radio" name="room" value="messy1" checked="checked">
+                  <label class="container"><p style="font-size: .8em; margin-left: 15%">Section of a Room</p>
+                    <input onchange="displayResult()" id="option1" type="radio" name="room" value="messy1">
                     <span class="checkmark"></span>
+                    <img src="images/messyroom1.jpg" alt="closet">
                   </label>
-                  <img src="images/messyroom1.jpg" alt="closet">
+                  <label onclick="container()" class="containerMobile"><p style="font-size: .8em; margin-left: 15%">Section of a Room</p>
+                    <input onchange="displayResult()" id="option1Mobile" type="radio" name="room" value="messy1">
+                    <span class="checkmark"></span>
+                    <img src="images/messyroom1.jpg" alt="closet">
+                  </label>
                 </div>
                 <div class="card">
-                <label class="container"><p style="font-size: .8em;">Kitchen or Bathroom</p>
+                <label class="container"><p style="font-size: .8em; margin-left: 15%;">Kitchen or Bathroom</p>
                   <input onchange="displayResult()" id="option2" type="radio" name="room" value="messy2">
                   <span class="checkmark"></span>
-                </label>
                   <img src="images/messyroom2.jpg" alt="kitchen">
+                </label>
+                <label onclick="container()" class="containerMobile"><p style="font-size: .8em; margin-left: 15%">Kitchen or Bathroom</p>
+                  <input onchange="displayResult()" id="option2Mobile" type="radio" name="room" value="messy1">
+                  <span class="checkmark"></span>
+                  <img src="images/messyroom2.jpg" alt="closet">
+                </label>
                 </div>
                 <div class="card">
-                  <label class="container"><p style="font-size: .8em;">Full Room</p>
+                  <label class="container"><p style="font-size: .8em; margin-left: 15%">Full Room</p>
                   <input onchange="displayResult()" id="option3" type="radio" name="room" value="messy3">
                   <span class="checkmark"></span>
-                </label>
                   <img src="images/messyroom3.jpg" alt="room">
+                </label>
+                <label onclick="container()" class="containerMobile"><p style="font-size: .8em; margin-left: 15%">Full Room</p>
+                  <input onchange="displayResult()" id="option3Mobile" type="radio" name="room" value="messy1">
+                  <span class="checkmark"></span>
+                  <img src="images/messyroom3.jpg" alt="closet">
+                </label>
                 </div>
                 </div>
+                <div id="modal">
+                <div class="modalContent">
+                  <span class="close">&times;</span>
+                  <h6>Estimated Cost</h6>
+              <h3 style="font-weight: bold; font-size: 1.8em;" id="priceMobile"></h3>
+              <a href="book/book.html">
+              <button style="border: solid .5px orange;" class="button" type="button" name="button"> <img src="images/calendarSmall.png" alt="calendar"> Get Started</button>
+                </a>
+                </div>
+              </div>
                 </div>
               <div class="result">
                 <h4>Estimated Cost</h4>
-                <h3 id="price">$280</h3>
+                <h3 id="price"></h3>
                 <p style="text-align: center; color: grey; font-size: .9em;padding-bottom:10px;">The prices estimated by this program are estimates. Your prices may vary based on the complexity of the project. </p>
                 <a href="book/book.html">
                 <button  class="button" type="button" name="button"> <img src="images/calendarSmall.png" alt="calendar"> Get Started</button>
@@ -213,6 +238,7 @@
     </div>
     <p>Copyright &copy 2019</p>
   </footer>
+
 <script src="nav.js" charset="utf-8"></script>
     <!--Start of Tawk.to Script-->
 <script type="text/javascript">
