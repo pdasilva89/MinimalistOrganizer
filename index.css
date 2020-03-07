@@ -7,11 +7,6 @@ body {
   overflow-x: hidden
 }
 
-svg {
-  width: 160px;
-  height: auto;
-}
-
 h1, h2 {
   font-family: 'Segoe Print', regular;
   font-size: 3em;
@@ -333,7 +328,7 @@ a:hover {
 
     /* The Close Button */
     .close {
-      color: #aaaaaa;
+      color: black;
       float: right;
       font-size: 28px;
       font-weight: bold;
