@@ -26,13 +26,13 @@ function displayResult () {
       document.getElementById("priceMobile").innerHTML = "$" + result1;
   }
   else if (document.getElementById("option2").checked == true || document.getElementById("option2Mobile").checked == true) {
-      var conditionOfRooms2 = 300;
+      var conditionOfRooms2 = 240;
       var result2 = roomsNum * conditionOfRooms2;
      document.getElementById("price").innerHTML = "$" + result2;
      document.getElementById("priceMobile").innerHTML = "$" + result2;
   }
   else if (document.getElementById("option3").checked == true || document.getElementById("option3Mobile").checked == true) {
-    var conditionOfRooms3 = 420;
+    var conditionOfRooms3 = 300;
     var result3 = roomsNum * conditionOfRooms3;
     document.getElementById("price").innerHTML = "$" + result3;
     document.getElementById("priceMobile").innerHTML = "$" + result3;
