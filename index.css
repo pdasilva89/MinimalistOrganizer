@@ -692,6 +692,10 @@ footer {
     p {
       font-size: 1em
     }
+    
+    .first img, .third img {
+      margin-top: 0 !important;
+    }
 
     .calculator {
       width: 90%;
