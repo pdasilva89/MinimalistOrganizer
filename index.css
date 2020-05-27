@@ -247,6 +247,10 @@ a:hover {
   font-size: 1em
 }
 
+.step li {
+  padding: 1%;
+}
+
 .first, .second, .third {
   width: 100%;
   padding: 2% 0
