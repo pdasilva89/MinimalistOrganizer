@@ -618,6 +618,10 @@ footer {
     width: 400px;
     height: auto
   }
+  
+  .calcheading {
+    margin-top: 50px;
+  }
 
   .calculator {
     display: block;
