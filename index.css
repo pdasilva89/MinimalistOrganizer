@@ -57,7 +57,8 @@ nav {
   display: flex;
   justify-content: space-around;
   list-style: none;
-  align-items: center
+  align-items: center;
+  margin-top: 35px;
 }
 
 li a {
