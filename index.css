@@ -7,7 +7,7 @@ body {
   overflow-x: hidden
 }
 
-.logo {
+nav .logo {
   width: 180px;
   height: auto;
 }
