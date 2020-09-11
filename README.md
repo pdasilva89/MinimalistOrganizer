@@ -10,5 +10,5 @@
       <li>Square Appointments</li>
       <li></li>
     </ul>
-    <img src="https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png" alt="">
+    <img src="Logo.png" alt="">
     <a href="wwww.minimalistorganizer.com"></a>
