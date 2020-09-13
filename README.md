@@ -1,6 +1,6 @@
 # MinimalistOrganizer
 
-   <a href="https://www.minimalistorganizer.com/"><img src="Group 20.png" alt="">View Site</a>
+   <a href="https://www.minimalistorganizer.com/"><img src="images/Group 20.png" alt="">View Site</a>
   <h3>Utilizes JAMstack, a modern web development architecture.</h3>
     <h5>This project was built with HTML, CSS, Bootstrap, vanilla Javascript and API's.</h5>
     <a href="https://www.netlify.com/"><h3>Platform: <b>Netlify</b></h3></a>
