@@ -2,9 +2,7 @@
  <br>
  <a href="https://www.minimalistorganizer.com/"><img  src="images/Logo.png" alt=""></a>
  <br>
- <br>
  <h3>Cost for the project: $1.00/year for email.</h3>
- <br>
  <br>
 <a href="https://www.minimalistorganizer.com/"><img  src="images/button.png" alt=""></a>
   <h3>Utilizes JAMstack, a modern web development architecture.</h3>
