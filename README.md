@@ -15,15 +15,15 @@
       <a href="https://formspree.io/"><li>Formspree</li></a> 
     </ul>
      <ul><h3><b>SEO</b></h3>
-      <li>Site is fast, according to googles page speed insights tool<br>
+      <li>Site is fast, according to Google's "PageSpeed Insights" tool<br>
         <img src="images/pageSpeedInsights.png" alt=""></li>
   <br>
   <br>
-      <li>Site is responsive - mobile friendly, according to google<br>
+      <li>Site is responsive - mobile friendly, according to Google<br>
         <img src="images/mobileFriendly.png" alt=""></li>
    <br>
   <br>
-      <li>Site is showing up on google. Each page has a unique page title and description meta tags.<br>
+      <li>Site is showing up on Google. Each page has a unique page title and description meta tags.<br>
         <img src="images/googleSearch.png" alt=""></li>
    <br>
   <br>
@@ -35,7 +35,6 @@
         <img src="images/Capture.PNG" alt=""></li>
    <br>
   <br>
-      <a href="https://formspree.io/"><li>Formspree</li></a> 
     </ul>
     
     Built & Designed by: Priscila DaSilva
