@@ -1,4 +1,4 @@
-# MinimalistOrganizer
+# Minimalist Organizer
  <br>
  <a href="https://www.minimalistorganizer.com/"><img  src="images/Logo.png" alt=""></a>
  <br>
