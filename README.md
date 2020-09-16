@@ -2,6 +2,7 @@
  <br>
  <a href="https://www.minimalistorganizer.com/"><img  src="images/Logo.png" alt=""></a>
  <br>
+ <br>
 <a href="https://www.minimalistorganizer.com/"><img  src="images/button.png" alt=""></a>
   <h3>Utilizes JAMstack, a modern web development architecture.</h3>
     <h5>This project was built with HTML, CSS, Bootstrap, vanilla Javascript and API's.</h5>
