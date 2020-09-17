@@ -7,11 +7,11 @@
 <a href="https://www.minimalistorganizer.com/"><img  src="images/button.png" alt=""></a>
   <h3>Utilizes JAMstack, a modern web development architecture.</h3>
     This project was built with HTML, CSS, Bootstrap, vanilla Javascript and API's.
+        <a href="https://www.netlify.com/"><h3>Platform:<b> Netlify</b></h3></a>
          <ul><h3>Javascript Highlights</h3>
       <a href="https://github.com/pdasilva89/MinimalistOrganizer/blob/master/nav.js"><li>Simple price calculator</li></a> 
       <a href="https://github.com/pdasilva89/MinimalistOrganizer/blob/master/contact/validation.js"><li>Contact Form Validator</li></a> 
     </ul>
-    <a href="https://www.netlify.com/"><h3>Platform:<b> Netlify</b></h3></a>
     <ul><h3><b>API's</b></h3>
       <a href="https://mailchimp.com/"><li>Mailchimp</li></a>
       <a href="https://www.tawk.to/"><li>Tawk.to</li></a>
