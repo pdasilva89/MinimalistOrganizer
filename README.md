@@ -15,6 +15,7 @@
       <a href="https://formspree.io/"><li>Formspree</li></a> 
     </ul>  
      <ul><h3>JavaScript</h3>
+      <a href="https://github.com/pdasilva89/MinimalistOrganizer/blob/master/nav.js"><li>Simple price calculator</li></a> 
       <a href="https://github.com/pdasilva89/MinimalistOrganizer/blob/master/contact/validation.js"><li>Contact Form Validator</li></a> 
     </ul>
     <br>
