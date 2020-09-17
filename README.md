@@ -13,7 +13,11 @@
       <a href="https://www.tawk.to/"><li>Tawk.to</li></a>
       <a href="https://squareup.com/us/en/appointments"><li>Square Appointments</li></a>
       <a href="https://formspree.io/"><li>Formspree</li></a> 
+    </ul>  
+     <ul><h3>JavaScript</h3>
+      <a href="https://github.com/pdasilva89/MinimalistOrganizer/blob/master/contact/validation.js"><li>Contact Form Validator</li></a> 
     </ul>
+    <br>
      <ul><h3><b>SEO</b></h3>
       <li>Site is fast, according to Google's "PageSpeed Insights" tool<br>
         <img src="images/pageSpeedInsights.png" alt=""></li>
