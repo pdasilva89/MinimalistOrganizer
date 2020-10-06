@@ -12,7 +12,7 @@
       <a href="https://github.com/pdasilva89/MinimalistOrganizer/blob/master/nav.js"><li>Simple price calculator</li></a> 
       <a href="https://github.com/pdasilva89/MinimalistOrganizer/blob/master/contact/validation.js"><li>Contact Form Validator</li></a> 
     </ul>
-    <ul><h3><b>API's</b></h3>
+    <ul><h3><b>Integrations</b></h3>
       <a href="https://mailchimp.com/"><li>Mailchimp</li></a>
       <a href="https://www.tawk.to/"><li>Tawk.to</li></a>
       <a href="https://squareup.com/us/en/appointments"><li>Square Appointments</li></a>
